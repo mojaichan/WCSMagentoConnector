@@ -1,0 +1,14 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="WCSMagentoConnector" bundleable="false">
+    <file name="Connector_WCS_Customer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="Connector_WCS_Item_Fabric.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="Connector_WCS_Task_Appointment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="Connector_WCS_Task_Trialfit.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="WCS_Customer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="WCS_RS_Case.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="WCS_RS_ShipmentStatus.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="WCS_SS_OrderStatus.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="WCS_SS_PaymentStatus.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+    <file name="WCS_UE_webItemFulfillment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+  </folder>
+</project>
