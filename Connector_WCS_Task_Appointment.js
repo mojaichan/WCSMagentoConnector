@@ -15,13 +15,16 @@
 	recTask.setFieldValue('timedevent','T');
 	recTask.setFieldValue('assigned',61155);	// assign to specific calendar
 	recTask.setFieldValue('custeventtasktype',1); //appointment type
-	recTask.setFieldValue('title', datain.first_name +' '+datain.last_name + '(Appointment)');
+	var newCustomerText = datain.is_new_customer == '1' ? '(New Customer)' : '';
+	recTask.setFieldValue('title', datain.customer_name + newCustomerText + '(Appointment)');
 	recTask.setFieldValue('startdate',datain.booking_date);
 nlapiLogExecution('DEBUG','datain:booking',datain.booking_date);
 nlapiLogExecution('DEBUG','GET date',recTask.getFieldValue('startdate'));
 	recTask.setFieldValue('starttime',datain.booking_time_from);
 	recTask.setFieldValue('endtime',datain.booking_time_to);
 	recTask.setFieldValue('message',datain.message_us);
+	recTask.setFieldValue('custevent_booking_email',datain.booking_email);
+	recTask.setFieldValue('custevent_booking_phone',datain.booking_phone);
 	recTask.setFieldValue('custevent_fern_connector_magentoid',datain.booking_id);
 	recTask.setFieldValue('custevent_fern_booking_delete_url',datain.delete_url);
 	nlapiLogExecution('DEBUG','Delete URL',datain.delete_url);
